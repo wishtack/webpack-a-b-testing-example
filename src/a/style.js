@@ -7,4 +7,4 @@
 
 'use strict';
 
-import './app.scss';
+import '../app/**/*.scss';
