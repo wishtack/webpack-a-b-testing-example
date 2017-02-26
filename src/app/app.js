@@ -6,3 +6,5 @@
  */
 
 'use strict';
+
+import 'style-loader!./div-background.scss';

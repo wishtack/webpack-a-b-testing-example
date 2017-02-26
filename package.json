@@ -9,14 +9,15 @@
     "import-glob": "1.5.0",
     "import-glob-loader": "1.1.0",
     "node-sass": "4.5.0",
+    "parallel-webpack": "1.6.1",
     "sass-loader": "6.0.2",
     "script-ext-html-webpack-plugin": "1.7.1",
     "style-loader": "0.13.2",
     "webpack": "2.2.1"
   },
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "build": "parallel-webpack",
+    "watch": "parallel-webpack --watch"
   },
   "author": "Wishtack",
   "license": "MIT"
